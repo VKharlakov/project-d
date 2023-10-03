@@ -1,0 +1,25 @@
+.filter-menu {
+  width: max-content;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr max-content max-content;
+  background-color: rgba(227, 227, 227, 0.5);
+  transition: 0.3s ease;
+}
+
+.filter-menu_active {
+  width: 40vw;
+  max-width: 500px;
+}
+
+.filter-menu__filters-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
