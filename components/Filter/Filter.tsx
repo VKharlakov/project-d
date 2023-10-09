@@ -9,7 +9,7 @@ type FilterProps = {
 function Filter({ filterData }: FilterProps) {
   return (
     <div className={styles.filter}>
-      <p className={styles.filter__title}>{filterData.title}</p>
+      <h3 className={styles.filter__title}>{filterData.title}</h3>
       <ul className={styles.filter__options}>
         {filterData.options.map((option, index) => (
           <li className={styles.filter__option} key={index}>

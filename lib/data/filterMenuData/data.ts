@@ -5,22 +5,22 @@ export const filters = [
       {
         title: "Winter",
         hash: "#winter",
-        icon: null,
+        icon: undefined,
       },
       {
         title: "Spring",
         hash: "#spring",
-        icon: null,
+        icon: undefined,
       },
       {
         title: "Summer",
         hash: "#summer",
-        icon: null,
+        icon: undefined,
       },
       {
         title: "Autumn",
         hash: "#autumn",
-        icon: null,
+        icon: undefined,
       },
     ],
   },
@@ -30,22 +30,22 @@ export const filters = [
       {
         title: "Night",
         hash: "#night",
-        icon: null,
+        icon: undefined,
       },
       {
         title: "Dawn",
         hash: "#dawn",
-        icon: null,
+        icon: undefined,
       },
       {
         title: "Day",
         hash: "#day",
-        icon: null,
+        icon: undefined,
       },
       {
         title: "Dusk",
         hash: "#dusk",
-        icon: null,
+        icon: undefined,
       },
     ],
   },

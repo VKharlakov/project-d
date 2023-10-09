@@ -1,0 +1,19 @@
+.filter {
+}
+
+.filter__title {
+  margin-bottom: 24px;
+}
+
+.filter__options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.filter__option {
+  width: max-content;
+}

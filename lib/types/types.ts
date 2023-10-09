@@ -1,7 +1,7 @@
 export type Option = {
   title: string;
   hash: string;
-  icon: null;
+  icon: undefined;
 };
 
 export type Filter = {

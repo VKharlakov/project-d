@@ -7,10 +7,8 @@ type OptionProps = {
 
 function Option({ optionData }: OptionProps) {
   return (
-    <div className={styles.option}>
-      <label className={styles.option__label} htmlFor={optionData.hash}>
-        {optionData.title}
-      </label>
+    <label className={styles.option} htmlFor={optionData.hash}>
+      {optionData.title}
       <input
         className={styles.option__checkbox}
         type="checkbox"
@@ -22,7 +20,7 @@ function Option({ optionData }: OptionProps) {
           style={{ backgroundImage: optionData.icon }}
         />
       )}
-    </div>
+    </label>
   );
 }
 
